@@ -2,6 +2,8 @@ using System;
 
 class MainClass {
   public static void Main (string[] args) {
-    Console.WriteLine ("Hello World");
+    Console.WriteLine ("Digite seu nome:\t");
+    String nome = Console.ReadLine();
+    Console.WriteLine($"Olá, {nome}");
   }
 }
